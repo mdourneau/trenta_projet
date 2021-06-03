@@ -1,0 +1,32 @@
+{
+    "name": "vendor/knplabs",
+    "description": "Permet de lister les derniers commits",
+    "authors": [
+        {
+            "name": "maxence dourneau",
+            "email": "maxence1dourneau@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "knplabs/github-api": "3.0",
+        "guzzlehttp/guzzle": "7.0.1",
+        "http-interop/http-factory-guzzle": "1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\axome_git": "src/"
+        },
+        "classmap": [
+            "src/"
+        ],
+        "exclude-from-classmap": []
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    },
+    "type": "prestashop-module",
+    "author": "maxence dourneau",
+    "license": "1"
+}
